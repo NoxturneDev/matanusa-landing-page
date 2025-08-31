@@ -140,14 +140,16 @@ export default function MobileAppLanding() {
                 <span className="text-primary"> Indonesian Education.</span>
               </h1>
               <p className="mt-3 text-base text-muted-foreground sm:mt-5 sm:text-xl lg:text-lg xl:text-xl text-pretty">
-                MataNusa is the first platform to centralize and visualize verified educational data from across the archipelago,{' '}
-                <span className="text-primary">transforming complexity into clarity.</span>
+                MataNusa is the first platform to centralize and visualize verified educational data from across the
+                archipelago, <span className="text-primary">transforming complexity into clarity.</span>
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                <Button size="lg" className="w-full sm:w-auto mr-4 mb-4 sm:mb-0">
-                  <Play className="mr-2 h-5 w-5" />
-                  Explore The Map
-                </Button>
+                <a href="https://demo.matanusa.my.id" target='_blank' rel="noopener noreferrer">
+                  <Button size="lg" className="w-full sm:w-auto mr-4 mb-4 sm:mb-0">
+                    <Play className="mr-2 h-5 w-5" />
+                    Explore The Map
+                  </Button>
+                </a>
                 <Button variant="outline" size="lg" className="w-full sm:w-auto bg-transparent">
                   Learn More
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -162,7 +164,7 @@ export default function MobileAppLanding() {
           </div>
         </div>
       </section>
-      
+
       {/* Video Section */}
       <section id="video" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -171,7 +173,8 @@ export default function MobileAppLanding() {
               See Our Mission in Motion
             </h2>
             <p className="mt-4 max-w-3xl mx-auto text-xl text-muted-foreground text-pretty">
-              A short film about the challenges we're tackling and how MataNusa brings data, community, and action together to make a difference on the ground.
+              A short film about the challenges we're tackling and how MataNusa brings data, community, and action
+              together to make a difference on the ground.
             </p>
           </div>
           <div className="max-w-4xl mx-auto">
@@ -204,7 +207,8 @@ export default function MobileAppLanding() {
               Everything you need to access, analyze, and manage educational data effectively.
             </p> */}
             <p className="mt-4 max-w-2xl mx-auto text-xl text-muted-foreground text-pretty">
-              From data visualization to direct action, our ecosystem connects the dots to create measurable, real-world impact.
+              From data visualization to direct action, our ecosystem connects the dots to create measurable, real-world
+              impact.
             </p>
           </div>
 
@@ -267,7 +271,8 @@ export default function MobileAppLanding() {
                 solutions.
               </p> */}
               <p className="mt-4 text-lg text-muted-foreground text-pretty">
-                MataNusa provides unique value for everyone dedicated to educational progress, from national policymakers to individual changemakers.
+                MataNusa provides unique value for everyone dedicated to educational progress, from national
+                policymakers to individual changemakers.
               </p>
 
               <div className="mt-8 space-y-6">
@@ -291,7 +296,7 @@ export default function MobileAppLanding() {
                     description:
                       'Invest with confidence. Fund AI-verified projects and track your contributions transparently to see tangible, on-the-ground results.',
                   },
-                   {
+                  {
                     icon: HeartHandshake,
                     title: 'For the Public & Changemakers',
                     description:
@@ -314,7 +319,11 @@ export default function MobileAppLanding() {
             </div>
 
             <div className="mt-12 lg:mt-0">
-              <img src="/dashboard-1.png" alt="Web app analytics illustration" className="w-full rounded-lg shadow-lg" />
+              <img
+                src="/dashboard-1.png"
+                alt="Web app analytics illustration"
+                className="w-full rounded-lg shadow-lg"
+              />
             </div>
           </div>
         </div>
@@ -331,13 +340,14 @@ export default function MobileAppLanding() {
               Explore the powerful features that make our platform the leading choice for educational data management.
             </p> */}
             <p className="mt-4 max-w-2xl mx-auto text-xl text-muted-foreground text-pretty">
-              Go beyond theory. See how our core components work together to bring transparency and action to the forefront.
+              Go beyond theory. See how our core components work together to bring transparency and action to the
+              forefront.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {[
-               // NEW, MORE ACCURATE DESCRIPTIONS
+              // NEW, MORE ACCURATE DESCRIPTIONS
               {
                 title: 'Illuminate Trends with the Dashboard',
                 description:
@@ -386,7 +396,8 @@ export default function MobileAppLanding() {
               Join educational institutions and researchers who are already transforming their data management.
             </p> */}
             <p className="mt-4 text-xl text-muted-foreground text-pretty">
-              Be part of the movement. Join the leaders, institutions, and individuals building a more transparent and equitable future for education in Indonesia.
+              Be part of the movement. Join the leaders, institutions, and individuals building a more transparent and
+              equitable future for education in Indonesia.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
