@@ -76,7 +76,7 @@ export default function MobileAppLanding() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Smartphone className="h-8 w-8 text-primary mr-2" />
-              <span className="font-bold text-xl text-foreground">AppName</span>
+              <span className="font-bold text-xl text-foreground">MataNusa</span>
             </div>
 
             {/* Desktop Navigation */}
@@ -414,7 +414,7 @@ export default function MobileAppLanding() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <Smartphone className="h-8 w-8 text-primary mr-2" />
-              <span className="font-bold text-xl text-foreground">AppName</span>
+              <span className="font-bold text-xl text-foreground">MataNusa</span>
             </div>
             <p className="text-muted-foreground text-center md:text-right">
               © 2024 AppName. All rights reserved.
